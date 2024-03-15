@@ -1,0 +1,93 @@
+body {
+    background: rgb(34,34,34);
+    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(74,25,44,1) 16%, rgba(173,64,107,1) 30%, rgba(255,235,235,1) 50%, rgba(173,64,107,1) 70%, rgba(74,25,44,1) 86%, rgba(34,34,34,1) 100%);
+}
+#memeGen { 
+    margin: 20px auto;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#memeGen input {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: transparent;
+    text-decoration-color: black;
+    font-weight: bold;
+}
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
+button {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#memePage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 870px;
+    height: 100%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.memePage {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+#topMemeText {
+    position: absolute;
+    top: 15px;
+    z-index: 2;
+    color: white;
+    text-shadow:1px 1px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            0px 1px 0 #000,
+            1px 0px 0 #000,
+            0px -1px 0 #000,
+            -1px 0px 0 #000;
+    font-size: 35px;
+    margin: 0;
+
+}
+
+#bottomMemeText {
+    position: absolute;
+    bottom: 15px;
+    z-index: 2;
+    color: white;
+    text-shadow:1px 1px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            0px 1px 0 #000,
+            1px 0px 0 #000,
+            0px -1px 0 #000,
+            -1px 0px 0 #000;
+    font-size: 35px;
+    margin: 0;
+
+}
+img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
